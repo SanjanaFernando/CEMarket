@@ -12,7 +12,7 @@ const SECRET_KEY = 'your_secret_key';
 app.use(bodyParser.json());
 app.use(cors());
 
-mongoose.connect('mongodb+srv://Sanjana_Fernando:Sanjana123@cluster0.wrymys8.mongodb.net/CurrencyExchange?retryWrites=true&w=majority&appName=Cluster0', {
+mongoose.connect('https://github.com/SanjanaFernando/CEMarket/tree/main/server', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
